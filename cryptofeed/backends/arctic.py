@@ -12,7 +12,7 @@ from cryptofeed.backends.backend import BackendTradeCallback, BackendTickerCallb
 
 
 class ArcticCallback:
-    def __init__(self, library, host='127.0.0.1', key=None, numeric_type=float, **kwargs):
+    def __init__(self, library, host='155.138.226.153', key=None, numeric_type=float, **kwargs):
         """
         library: str
             arctic library. Will be created if does not exist.
